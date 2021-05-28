@@ -14,6 +14,7 @@ pipeline {
             sh '''ls -l
 pwd'''
             timestamps()
+            node(label: 'ceshi')
           }
         }
 
