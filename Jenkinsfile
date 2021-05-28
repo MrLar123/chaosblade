@@ -13,6 +13,7 @@ pipeline {
           steps {
             sh '''ls -l
 pwd'''
+            timestamps()
           }
         }
 
